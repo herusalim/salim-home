@@ -5,3 +5,5 @@ target/
 generated-sources/
 .metadata/
 **/.*.swp
+.classpath
+.project
