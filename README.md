@@ -1,2 +1,0 @@
-# salim-home
-Family Salim
