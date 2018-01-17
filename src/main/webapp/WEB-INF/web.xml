@@ -12,6 +12,30 @@
         <servlet-name>demo</servlet-name>
         <url-pattern>/demo</url-pattern>
     </servlet-mapping>
+	<servlet>
+		<servlet-name>form_gambar_text</servlet-name>
+		<jsp-file>/jsp/upload_gambar.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>form_gambar_text</servlet-name>
+		<url-pattern>/gambar_ke_text</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ImageStoreServlet</servlet-name>
+		<servlet-class>org.salimhome.datastore.ImageStoreServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ImageStoreServlet</servlet-name>
+		<url-pattern>/imgstore</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>org.salimhome.books.input.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/upload_tampilkan</url-pattern>
+	</servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
