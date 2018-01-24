@@ -5,6 +5,7 @@
     BlobstoreService blobstoreService = BlobstoreServiceFactory.getBlobstoreService();
 %>
 
+<!DOCTYPE html>
 <html>
 <head>
 <title>Upload gambar</title>
